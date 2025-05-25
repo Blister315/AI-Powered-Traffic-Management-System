@@ -1,4 +1,4 @@
-# Traffic-Management-Using-AI
+# AI Powered Traffic Management System
   
 [![Python version](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![Python version](https://img.shields.io/badge/matplotlib-3.5.1-green.svg)](https://pypi.org/project/matplotlib/)
