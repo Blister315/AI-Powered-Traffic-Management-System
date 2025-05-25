@@ -101,13 +101,32 @@ Here we Compare the Total Number of the Vehicles that crosses the intersection o
 ## NEAT AI
 ### Working of NEAT AI
 
+## Problem:
+While driving through consecutive traffic signals we often have to wait at each of the signal.
+## Solution:
+With image detection the coordinate between consecutive traffic signal so that you have to stop at only one traffic signal and no other signal following it.
 
 
-![1](https://user-images.githubusercontent.com/83399207/166124081-42d7b3b2-f355-465a-9fae-dac8cff24043.jpg)
-![2](https://user-images.githubusercontent.com/83399207/166124084-84de468e-f0c4-471a-b7c8-23db6680f1ab.jpg)
-![3](https://user-images.githubusercontent.com/83399207/166124086-1a5d9c4b-4faf-45a8-a431-0c9cf631c871.jpg)
-![4](https://user-images.githubusercontent.com/83399207/166124091-2e9a53e0-9658-44c7-8f94-518787e48e97.jpg)
-![6](https://user-images.githubusercontent.com/83399207/166124090-74ff8b01-9fb5-4476-85e0-5d6327c1b0c4.jpg)
+## Working of AI
+The NEAT AI works on a reward based model i.e it learns depending on what score it gets for its action.
+It implements this using a network of neurons.
+The first layer is made of input neurons, they depend upon the number of inputs.
+After the first layer, there may be any number of hidden layers. The hidden layers have nodes which form and deform connections depending upon the reward which it gets.
+The model with the highest score gets selected for the next generation.
+
+
+## Inputs of AI
+The AI will take the following inputs:
+i. Time vehicles had to wait at the next signal.
+ii. No. of vehicles left at the signal after closing.
+iii. No. of signals connected with this signal.
+
+
+## Output of AI
+The AI will take the give the following outputs::
+i. When to open the signals.
+ii. Seconds for which the signals need to stay open.
+
 
 ## Graphical visualization of AI
 The following video shows how the AI will coordinate the signals so that the vehicles will not have to stop at every signal if they want to travel on the same straight route.
